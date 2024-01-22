@@ -1,0 +1,85 @@
+ /*principal*/
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: none;
+ }
+
+ body {
+    background-image: url(../img/IMGLOGIN.jpg);
+    background-size: cover;
+    background-position-y: -60px;
+ }
+
+a, label{
+    font-size: .8rem;
+}
+
+a:hover{
+    color: #08558B;
+}
+
+/*Login*/
+
+#login-container{
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+/*Formulário*/
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label{
+    font-weight: bold;
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+input{
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"]{
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: black;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: lightslategray;
+    transition: .2s;
+}
+
+#register p{
+   margin-bottom: 10px; 
+}

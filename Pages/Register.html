@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COGEP - Companhia de Geotecnologias do Paraná</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/Style/Register.css">
+</head>
+
+<!--Formulário de registro-->
+
+<body>
+    <div id="register-container">
+        <h1>Cadastre-se para acessar o sistema</h1>
+        <form id="register-form" action="">
+            <div class="full-box">
+                <label for="e-mail">E-mail</label>
+                <input type="e-mail" name="e-mail" id="e-mail" placeholder="Digite seu e-mail">         
+            </div>
+            <div class="half-box spacing">
+                <label for="firstname">Nome</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Digite o seu nome">
+            </div>
+            <div class="half-box">
+                <label for="lastname">Sobrenome</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Digite o seu sobrenome">
+            </div>
+            <div class="half-box spacing">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+            </div>
+            <div class="half-box">
+                <label for="passconfirmation">Confirmação de senha</label>
+                <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Confirme sua senha">
+            </div>
+            <div class="full-box">
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">Termos de uso.</a></label>    
+            </div>
+            <div class="full-box">
+                <input id="btn-submit" type="submit" value="Registrar">        
+            </div>
+            <div id="back">
+                <a href="/index.html">Voltar</a>
+            </div>
+        </form>
+    </div>
+
+    <!--Elemento para futura verificação-->
+
+    <p class="error-validation template"></p>
+
+    <!--Scripts-->
+    
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
